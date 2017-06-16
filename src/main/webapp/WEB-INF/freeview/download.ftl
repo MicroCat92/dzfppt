@@ -14,8 +14,8 @@
 		<div class="d-hbody">
 			<div class="d-hbody-content">
 				<a href="${base}/index/getindex.do" class="d-hbody-menus">首页</a>
-				<a href="${base}/download/getindex.do" class="d-hbody-menus">资料下载</a>
-				<a href="${base}/api/getindex.do" class="d-hbody-menusd">API</a>
+				<a href="${base}/download/getindex.do" class="d-hbody-menusd">资料下载</a>
+				<a href="${base}/api/getindex.do" class="d-hbody-menus">API</a>
 				<a href="${base}/tool/getindex.do" class="d-hbody-menus">网页测试工具</a>
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 		<hr/>
 		
 		<div class="d-cbody">
-			${base},this is api
+			${base},this is download
 		</div>
 	</div>  
 </body>
