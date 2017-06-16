@@ -1,2 +1,7 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/freeview/download.ftl=UTF-8
+encoding//src/main/webapp/WEB-INF/freeview/dzfpapi.ftl=UTF-8
+encoding//src/main/webapp/WEB-INF/freeview/hello.ftl=UTF-8
+encoding//src/main/webapp/WEB-INF/freeview/index.ftl=UTF-8
+encoding//src/main/webapp/WEB-INF/freeview/testtool.ftl=UTF-8
 encoding/<project>=UTF-8
