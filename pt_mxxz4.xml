@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<interface xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.chinatax.gov.cn/tirip/dataspec/interfaces.xsd" version="DZFP1.0">
+	<globalInfo>
+		<terminalCode>0</terminalCode>
+		<appId>ZZS_PT_DZFP</appId>
+		<version>1.0</version>
+		<interfaceCode>ECXML.FPXZ.CX.E_INV</interfaceCode>
+		<userName>111MFWIK</userName>
+		<passWord>3140397267pGpjVo21fKjVkEt0Yr7WeQ==</passWord>
+		<taxpayerId>310101000000090</taxpayerId>
+		<authorizationCode>3100000090</authorizationCode>
+		<requestCode>111MFWIK</requestCode>
+		<requestTime>2017-06-07 15:38:58</requestTime>
+		<responseCode/>
+		<dataExchangeId>111MFWIK20170607000000000</dataExchangeId>
+	</globalInfo>
+	<returnStateInfo>
+		<returnCode/>	
+		<returnMessage/>
+	</returnStateInfo>
+	<Data>
+		<dataDescription>
+			<zipCode>0</zipCode>
+			<encryptCode>2</encryptCode>
+			<codeType>CA</codeType>
+		</dataDescription>
+		<content>
+			<REQUEST_FPXXXZ_NEW class="REQUEST_FPXXXZ_NEW">
+				<FPQQLSH>00000000000001529107</FPQQLSH>
+				<DSPTBM>111MFWIK</DSPTBM>
+				<NSRSBH>310101000000090</NSRSBH>
+				<DDH>00000000000001529107</DDH>
+				<PDF_XZFS>3</PDF_XZFS>
+			</REQUEST_FPXXXZ_NEW>
+		</content>
+	</Data>
+</interface>

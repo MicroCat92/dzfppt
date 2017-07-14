@@ -1,26 +1,32 @@
 package sajt.dzfppt.pojo;
 
 public class ResultData {
-	private String code;
-	private String result;
-	private String msg;
-	public String getCode() {
-		return code;
+	private String returnCode;
+	private String returnMessage;
+	private String content;
+
+	public String getReturnCode() {
+		return returnCode;
 	}
-	public void setCode(String code) {
-		this.code = code;
+
+	public void setReturnCode(String returnCode) {
+		this.returnCode = returnCode;
 	}
-	public String getResult() {
-		return result;
+
+	public String getReturnMessage() {
+		return returnMessage;
 	}
-	public void setResult(String result) {
-		this.result = result;
+
+	public void setReturnMessage(String returnMessage) {
+		this.returnMessage = returnMessage;
 	}
-	public String getMsg() {
-		return msg;
+
+	public String getContent() {
+		return content;
 	}
-	public void setMsg(String msg) {
-		this.msg = msg;
+
+	public void setContent(String content) {
+		this.content = content;
 	}
-	
+
 }

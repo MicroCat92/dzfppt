@@ -19,9 +19,9 @@ $(function(){
 				 //alert(data.code);
 				 //$().apendJSON.stringify(a);
 				 var result = "{<br/>"
-					 +'"code"&nbsp;:&nbsp;"' + data.code +'",<br/>'
-					 +'"result"&nbsp;:&nbsp;"' + data.result +'",<br/>'
-					 +'"message"&nbsp;:&nbsp;"' + data.msg +'"<br/>'
+					 +'"returnCode"&nbsp;:&nbsp;"' + data.returnCode +'",<br/>'
+					 +'"returnMessage"&nbsp;:&nbsp;"' + data.returnMessage +'",<br/>'
+					 +'"content"&nbsp;:&nbsp;"' + data.content +'"<br/>'
 				 	+"}";
 				 $("#msg").empty();
 				 $("#msg").append(result);

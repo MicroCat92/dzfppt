@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="sajt.dzfppt.dao.NsrxxDao">
+
+	<select id="selectByNsrsbh" resultType="sajt.dzfppt.entity.Nsrxx"
+		parameterType="java.lang.String">
+		SELECT
+			dsptbm,
+			is_kce,
+			validate
+		FROM
+			tbl_nsrxx
+		WHERE
+			nsrsbh = #{nsrsbh}
+	</select>
+
+	<select id="selectAllByNsrsbh" resultType="sajt.dzfppt.entity.Nsrxx"
+		parameterType="java.lang.String">
+		SELECT
+			*
+		FROM
+			tbl_nsrxx nsrxx
+		LEFT JOIN
+			tbl_dsptxx dsptxx
+		ON
+			nsrxx.DSPTBM=dsptxx.dsptbm
+		WHERE
+			nsrxx.NSRSBH=#{nsrsbh}
+	</select>
+
+</mapper>
